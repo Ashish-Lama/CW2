@@ -66,7 +66,7 @@ width: 150px;
     cursor: pointer;
 }
 #Live{
-   visibility: hidden;
+  
     background: #DBACAC;
     font-family: 'Times New Roman', Times, serif;
     display: block;
@@ -80,9 +80,51 @@ width: 150px;
     text-align:right;
     margin: 20px auto;
     cursor: pointer; 
+    transition: 0.6s;
 }
 #Live.open{
-    visibility: visible;
-    transition: 0.7s;
+    visibility: hidden;
+   
 
+}
+#Easy{
+  visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+    
+}
+#Easy h2{
+    background: greenyellow;
+    width: 250px;
+    float: center;
+   transition: 0.3s;
+}
+#Easy.open{
+    visibility: visible;
+    
+}
+#Hard{
+    visibility: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    
+   
+    font-size: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+   
+}
+#Hard h2{
+    background: rebeccapurple;
+    width: 250px;
+    float: center;
+    transition: 0.5s;
+   
+}
+#Hard.open{
+    visibility: visible;
 }
